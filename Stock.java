@@ -10,14 +10,16 @@ public class Stock {
         symbol = newsymbol;
         currentPrice = newPrice;
     }
+    
     double getPrice(){
         return currentPrice;
     }
+    
     String getSymbol(){
         return symbol;
     }
 
-    public StringtoString getStock(){
+    public String toString(){
         String Display = "Symbol: " + symbol + ", Current Price: " + currentPrice;
         return Display;
     }

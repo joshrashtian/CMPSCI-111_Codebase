@@ -5,10 +5,14 @@ import javax.swing.JPanel;
 
 public class Main {
     public static void main(String[] args){
+        int questionsleft = 10;
+        
         String name = GUI("input", "Enter Your Username:");
 
         JOptionPane.showConfirmDialog(null, "Are you ready to be tested?", "DMV Test Taker", 1, 3);
-    
+        
+        while(questionsleft > 0){
+        }
     }
 
     public static String GUI(String type, String message){
