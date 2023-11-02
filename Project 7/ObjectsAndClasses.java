@@ -15,6 +15,7 @@ public class ObjectsAndClasses {
 
         Adidas.setPrice(69.99);
         Adidas.setBrand("");
+        Adidas.getBrand();
 
         System.out.println(Adidas.toString());
         System.out.println(AdidasOutlet.toString());
