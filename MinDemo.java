@@ -10,6 +10,8 @@ public class MinDemo {
         min(first, (int)(Math.random() * 30), (int)(Math.random() * 30));
 
         min((int)(Math.random() * 50), (int)(Math.random() * 50));
+
+        input.close();
     }
 
    public static void min(int num1, int num2) {

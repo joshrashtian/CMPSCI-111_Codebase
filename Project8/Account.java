@@ -65,8 +65,8 @@ public class Account {
             id = newid;
             balance = newbal;
             interestrate = newinterest;
-        }
-
+        }   
+        
     int getId () {
     return id;
     }

@@ -9,9 +9,11 @@ public class ExecptionHandling {
         System.out.println("Enter an Integer: ");
         try {
             int integer = input.nextInt();
+            System.out.println(integer);
         } catch (InputMismatchException e) {
             System.out.println(e);
         }
+        input.close();
         
     }
 }

@@ -7,6 +7,7 @@ public class SumDigits {
         System.out.println("Enter a number:");
         int number = input.nextInt();
         System.out.println("Sum of Digits = " + sumdigits(number, number));
+        input.close();
     }
     public static int sumdigits(int n, int m){
         int total = 0;

@@ -33,5 +33,7 @@ public class InputOutput {
             System.out.println(array[i]);
         }
 
+        scanFile.close();
+
     }
 }

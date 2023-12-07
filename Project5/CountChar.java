@@ -18,6 +18,7 @@ public class CountChar {
     int total = count(sentence, letter);
 
     System.out.println(total);
+    input.close();
     }
 
 public static int count(String word, char letter){

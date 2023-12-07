@@ -11,5 +11,6 @@ public class testPrinting{
         System.out.println(data.next());
         System.out.println(data.next());
         System.out.println(data.next());
+        data.close();
     }
 }

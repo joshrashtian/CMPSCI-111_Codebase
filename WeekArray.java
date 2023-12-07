@@ -7,5 +7,6 @@ public class WeekArray {
         System.out.println("Enter a number 0-6:");
         int num = input.nextInt();
         System.out.println("The day of the week is " + days[num]);
+        input.close();
     }
 }

@@ -19,5 +19,6 @@ public class Matrix {
         }
         average = (total / (matrix.length * matrix[0].length));
         System.out.println("Total is " + total + ", and our average is " + average);
+        input.close();
     }
 }
